@@ -1,1 +1,1 @@
-mv -f .gitconfig ~/.gitconfig
+ln -sfn ~/dotfiles/.gitconfig ~/.gitconfig
