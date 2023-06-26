@@ -6,8 +6,6 @@
 [user]
 	name = Scott Yang
 	email = scott.yang@shopify.com
-[include]
-	path = /Users/scottyang/.config/dev/gitconfig
 [core]
 	editor = code -w
 [init]
