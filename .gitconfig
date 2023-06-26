@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Scott Yang
+	email = scott.yang@shopify.com
+[include]
+	path = /Users/scottyang/.config/dev/gitconfig
+[core]
+	editor = code -w
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+    co = checkout
+    pf = push --force-with-lease
+    br = branch
+    rb = rebase
