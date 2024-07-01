@@ -17,8 +17,8 @@
     pf = push --force-with-lease
     br = branch
     rb = rebase
-	lol = log --oneline
-	cmtm = commit -m
+    lol = log --oneline
+    cmtm = commit -m
 [include]
 	path = /Users/scottyang/.config/dev/gitconfig
 [credential]
