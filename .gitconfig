@@ -8,6 +8,7 @@
 	email = scott.yang@shopify.com
 [core]
 	editor = code -w
+	excludesfile = /Users/scottyang/.gitignore_global
 [init]
 	defaultBranch = main
 [alias]
@@ -16,3 +17,10 @@
     pf = push --force-with-lease
     br = branch
     rb = rebase
+	lol = log --oneline
+	cmtm = commit -m
+[include]
+	path = /Users/scottyang/.config/dev/gitconfig
+[credential]
+	helper =
+	helper = store --file /opt/dev/var/private/git_credential_store
