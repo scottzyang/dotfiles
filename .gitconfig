@@ -21,6 +21,3 @@
     cmtm = commit -m
 [include]
 	path = /Users/scottyang/.config/dev/gitconfig
-[credential]
-	helper =
-	helper = store --file /opt/dev/var/private/git_credential_store
